@@ -1,0 +1,35 @@
+
+NOTES
+
+use for multiple inputs:
+
+  var1, var2 = input("prompt").split()
+
+
+use for images:
+
+  import webbrowser
+  webbrowser.open('http://example.com')
+
+
+COMMANDS
+
+help, help{command}:
+
+
+list category, list cat, ls category, ls cat:
+
+
+list {category_name}, ls {category_name}:
+
+
+list all, ls all:
+
+info {item_name}:
+
+  item name
+  item price
+  item description
+
+
+view {item_name}:
