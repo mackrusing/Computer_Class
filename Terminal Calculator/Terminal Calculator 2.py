@@ -102,8 +102,9 @@ def input_function():
             input_function()
 
         # GitHub Command
-    elif user_input.lower() == "github":
+        elif user_input.lower() == "github":
             webbrowser.open("https://github.com/mackrusing/computer-class/tree/master/Terminal%20Calculator")
+            blank()
             input_function()
 
         # Exit Command
