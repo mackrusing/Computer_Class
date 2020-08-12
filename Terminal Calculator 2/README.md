@@ -1,1 +1,3 @@
 # Terminal Calculator
+
+![Screenshot](placeholder)
