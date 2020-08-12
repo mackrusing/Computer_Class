@@ -61,9 +61,7 @@ def start():
     end_menu_line()
     blank_menu_line()
     text_menu_line("help")
-    blank_menu_line()
     text_menu_line("github")
-    blank_menu_line()
     text_menu_line("exit")
     blank_menu_line()
     end_menu_line()
@@ -153,5 +151,14 @@ def calculate(operator, num1, num2):
         blank()
         input_function()
 
+def failed_start():
+    print("Increse the window size to use this program")
+    exit(0)
 
-start()
+if lines > 9:
+    if columns > 22:
+        start()
+    else:
+        failed_start()
+else:
+    failed_start()
